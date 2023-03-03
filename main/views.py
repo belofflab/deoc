@@ -6,8 +6,8 @@ from .models import Post
 
 from telebot import TeleBot
 
-BOT_TOKEN = '6190789151:AAGVZXiZZv19f6YrNl38Dj12f9HjG-7Grmc'
-CHANNEL_ID = -1001791567557
+BOT_TOKEN = '6079077575:AAHWKWn6YyBzVjfjxQ0cU2UXCvke9aiERpM'
+CHANNEL_ID = -646425822
 
 
 bot = TeleBot(token=BOT_TOKEN, parse_mode='HTML')
