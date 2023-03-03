@@ -1,0 +1,132 @@
+{% extends 'main/base.html' %}
+{%block title %}Art Nygma Services - Сервисы компании Art Nygma {%endblock%}
+	{%block content%}
+		<div id="colorlib-main">
+			<div class="colorlib-services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Сервисы</span>
+							<h2 class="colorlib-heading">ArtNygma</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+										<div class="colorlib-icon">
+											<i class="flaticon-worker"></i>
+										</div>
+										<div class="colorlib-text">
+											<h3>Создание проекта мебели</h3>
+											<p>Спроектируем вашу мебель и посчитаем стоимость
+
+											</p>
+										</div>
+									</div>
+
+									<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+										<div class="colorlib-icon">
+											<i class="flaticon-sketch"></i>
+										</div>
+										<div class="colorlib-text">
+											<h3>Технологический расчёт</h3>
+											<p>Произведём технологический расчёт изделия в программе «Базис-Мебельщик»
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+										<div class="colorlib-icon">
+											<i class="flaticon-engineering"></i>
+										</div>
+										<div class="colorlib-text">
+											<h3>Распил</h3>
+											<p>Сделаем детали из ЛДСП, МДФ, ХДФ или ДВП по вашим размерам </p>
+										</div>
+									</div>
+
+									<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+										<div class="colorlib-icon">
+											<i class="flaticon-crane"></i>
+										</div>
+										<div class="colorlib-text">
+											<h3>Монтаж</h3>
+											<p>Быстрый и профессиональный монтаж ваших изделий</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(images/services-1.jpg)"></div>
+								<div class="desc">
+									<h3>Design &amp; Build</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(images/services-2.jpg)"></div>
+								<div class="desc">
+									<h3>фыв фыв</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(images/services-3.jpg)"></div>
+								<div class="desc">
+									<h3>фыв фыв</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(images/services-4.jpg)"></div>
+								<div class="desc">
+									<h3>Painting &amp; Tiling</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(images/services-5.jpg)"></div>
+								<div class="desc">
+									<h3>Kitchen Remodeling</h3>
+								</div>
+							</a>
+						</div>
+					</div> -->
+				</div>
+			</div>
+
+			<div id="get-in-touch" class="colorlib-bg-color">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<h2>Заказать услугу!</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<p class="colorlib-lead">Для подробной реализации вашей идеи, свяжитесь с нами.</p>
+							<p><a href="{% url 'main:contact' %}" class="btn btn-primary btn-learn">Написать!</a></p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+{%endblock%}

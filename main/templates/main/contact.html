@@ -1,0 +1,88 @@
+{% extends 'main/base.html' %}
+{%block title %}Art Nygma Contact - Контакты компании Art Nygma {%endblock%}
+	{%block content %}
+		<div id="colorlib-main">
+
+			<div class="colorlib-contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Читать</span>
+							<h2 class="colorlib-heading">Получить консультацию 
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">info@domain.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Россия, г. Тюмень</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://+79829407490">+7 (982) 940-74-90</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
+									<form action="">
+										<div class="form-group">
+											<input id="formName" type="text" class="form-control" placeholder="Наименование" required>
+										</div>
+										<div class="form-group">
+											<input id="formNumber" type="text" class="form-control" placeholder="Ваш номер телефона" required>
+										</div>
+										<div class="form-group">
+											<textarea id="formText" name="" id="message" cols="30" rows="7" class="form-control" placeholder="Какая услуга вас интересует?" required></textarea>
+										</div>
+										<div class="form-group">
+											<input class="btn btn-primary btn-send-message" value="Отправить">
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="map"></div>	
+
+			<div id="get-in-touch" class="colorlib-bg-color">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<h2>Заказать услугу!</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<p class="colorlib-lead">Для подробной реализации вашей идеи, свяжитесь с нами.</p>
+							<p><a href="#" class="btn btn-primary btn-learn">Написать!</a></p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	{%endblock%}
